@@ -1,7 +1,7 @@
 import torch
 from .base_model import BaseModel
 from . import networks
-from torchsumarry import summary
+from torchsummary import summary
 
 class Pix2PixModel(BaseModel):
     """ This class implements the pix2pix model, for learning a mapping from input images to output images given paired data.
